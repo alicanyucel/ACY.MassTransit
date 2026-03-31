@@ -9,6 +9,7 @@ public interface IMessage
     DateTime CreatedAt { get; }
 }
 
+
 // Consumer interface
 public interface IConsumer<TMessage> where TMessage : IMessage
 {
