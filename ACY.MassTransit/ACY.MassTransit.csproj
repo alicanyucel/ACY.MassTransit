@@ -1,9 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Assembly bilgileri -->
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- NuGet metadata -->
+    <PackageId>ACY.MassTransit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Ali Can Yücel</Authors>
+    <Company>ACY</Company>
+    <Description>Lightweight messaging library inspired by MassTransit, built by Ali Can Yücel.</Description>
+    <PackageTags>messaging;bus;transport;masstransit;acy</PackageTags>
+    <RepositoryUrl>https://github.com/alicanyucel/ACY.MassTransit</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/alicanyucel/ACY.MassTransit</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
