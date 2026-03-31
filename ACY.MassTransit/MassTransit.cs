@@ -10,6 +10,7 @@ public interface IMessage
 }
 
 
+
 // Consumer interface
 public interface IConsumer<TMessage> where TMessage : IMessage
 {
